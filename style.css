@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.bar{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 10%;
+  background-color: gainsboro;
+  overflow: auto;
+}
+
+.abar{
+  display: block;
+  float: right;
+  width: 10px;
+  color: seashell;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  background-color: navy;
+}
+
+header{
+  justify-content: space-between;
+}
+img{
+  float: left;
+}
+
